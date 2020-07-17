@@ -13,6 +13,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
+    overflow-x: hidden;
 }
 
 /*----------------Nav Bar Styles ---------------------*/
@@ -26,9 +27,10 @@ body {
 /*----------------Hero/header Styles ---------------------*/
 #hero {
     background-color: #fff;
-    height: 767px;
+    /* height: 767px; */
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
+    position: relative;
 }
 
 #hero .hero-bg {
@@ -36,66 +38,178 @@ body {
     height: 684px;
 }
 
-#hero h3 {
+#hero h1 {
     margin-top: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
 
-#hero h1 {
+#hero h3 {
     color: #24116A;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+#hero p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0px 15px;
 }
 
 #autoImages {
     margin-top: 100px;
-
 }
 /*----------------Main Styles ---------------------*/
 #main .blue-box {
     background-color: #F1F7FB;
     border-radius: 10px;
-    width: 1162px;
-    height: 697px;
+    margin-top: 83px;
+    /* width: 1162px; */
+    /* height: 697px; */
 }
-#main .big-container {
+#main {
     background-color: #fff;
-    height: 1232px;
-    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
+    /* height: 1232px; */
+    /* box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05); */
+    margin-top: 54px;
+    margin-bottom: 103px;
 }
 
 #main img {
-    height: 80px;
+    /* height: 80px; */
 }
 
-#main h1 {
+.pays:not(:last-child){
+    margin-left: 23px;
+}
+
+.payments{
+    margin-bottom: 93px;
+}
+
+#main .header {
     margin-top: 83px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 75px;
 }
 
-#main p {
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#main .views {
     border-left: 2px solid #BDBDBD;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    width: 195px;
+    /* height: 56px; */
+    padding: 5px 0px 5px 10px;
 }
 
 #main .quote-cards {
-    height: 275px;
-    box-shadow: 0px 0px 100px rgba(22, 82, 240, 0.14);
+    /* height: 275px; */
+    /* box-shadow: 0px 0px 100px rgba(22, 82, 240, 0.14); */
+    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
     border-radius: 5px;
-    height: 170px;
+    /* height: 170px; */
     background-color: #fff;
-    height: 278px;
+    /* height: 278px; */
+    /* width: 493px; */
+    position: relative;
+    /* height: 278px; */
+}
+
+#main .quote-cards svg{
+    position: absolute;
+    left: 17px;
+    top: 14px;
+}
+
+#main .techs{
+    margin-bottom: 54px;
+}
+
+.techs{
+    margin-left: 5px;
+}
+
+.techs .quote{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23.4px;
+    line-height: 33px;
+    width: 397px;
+    height: 170px;
+    padding: 25px 5px;
+    margin: 15px 20px 25px;
+}
+
+.techs .quote + .quote-img{
+    width: 169px;
+    height: 36px;
+    margin-bottom: 50px;
+}
+
+.quote-img img{
+    width: 100%;
+    /* height: 0%; */
+}
+
+.techs > .quote-cards{
+    margin-right: 53px;
 }
 
 /*----------------Support Styles ---------------------*/
 #support {
-    height: 450px;
+    /* height: 450px; */
+    margin-bottom: 152px;
+}
+
+#exampleFormControlInput1{
+    height: 79px;
 }
 
 #support button {
       background: #00AEFF;
     border-radius: 3px;
     color: #fff;
+    width: 199px;
+    height: 77px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.custom-checkbox{
+    margin: 15px;
 }
 
 #support img {
-    height: 50px;
-    width: 50px;
+    height: 26px;
+    width: 26px;
 }
 
 /*----------------Footer Styles ---------------------*/

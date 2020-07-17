@@ -8,7 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> -->
     <!-- Awesome Fonts -->
     <script src="https://kit.fontawesome.com/99021df4e2.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
@@ -22,7 +25,7 @@
 
 <body id="page-up">
     <!---------- Container start section------------->
-    <div class="container">
+    <div class="">
         <div class="container-fluid">
             <!---------- Nav Bar ------------->
 
@@ -71,10 +74,10 @@
                 <div class="hero-bg d-flex flex-column">
 
                     <div class="row justify-content-center mt-5">
-                        <div class="col-sm col-lg-7 d-flex flex-column justify-content-center align-items-center">
-                            <h3 class="h4 font-weight-bold">The HNG Internship</h3>
-                            <h1 class="h1 font-weight-bold mb-3">Perfection is always under construction</h1>
-                            <p class="h4 text-center">The HNG Internship is an ambitious attempt to change the way
+                        <div class="col-sm col-lg-8 d-flex flex-column justify-content-center align-items-center">
+                            <h1 class="">The HNG Internship</h1>
+                            <h3 class="mb-3">Perfection is always under construction</h3>
+                            <p class="text-center">The HNG Internship is an ambitious attempt to change the way
                                 education is done in Africa. It’s the bridge between learning to code, and becoming the
                                 best in the world.</p>
                         </div>
@@ -82,49 +85,92 @@
 
                     <div class="row justify-content-center">
                         <div id="autoImages" class="col-sm col-lg-10 d-flex">
-                            <img class="img-fluid col-sm col-lg-4" src="./img/man1-img.png" alt="Pop up male">
-                            <img class=" img-fluid col-sm col-lg-4" src="./img/fem-img.png" alt="Pop up female">
-                            <img class="img-fluid col-sm col-lg-4" src="./img/man2-img.png" alt="Pop up male">
+                            <div class="row">
+                                <div class="col-sm col-lg-4">
+                                     <img class="img-fluid" src="./img/man1-img.png" alt="Pop up male">
+                                </div>
+
+                                 <div class="col-sm col-lg-4">
+                                    <img class=" img-fluid" src="./img/fem-img.png" alt="Pop up female">
+                                 </div>
+
+                                  <div class="col-sm col-lg-4">
+                                    <img class="img-fluid" src="./img/man2-img.png" alt="Pop up male">
+                                  </div>
+                            </div>
+                           
+                            
+                            
                         </div>
                     </div>
                 </div>
             </section>
 
             <!---------- Main section------------->
-            <div class="big-container bg-light">
-                <section id="main" class="d-flex justify-content-center">
-                    <div class="blue-box d-flex flex-column align-items-center justify-content-around">
+            <div class="big-container">
+                <section id="main" class="d-flex justify-content-center row">
+                    <div class="blue-box d-flex flex-column align-items-center justify-content-around col-10">
 
                         <div class="row justify-content-center">
-                            <h1 class="">75+ successful Interns have been with us </h1>
+                            <p class="header">75+ successful Interns have been with us </p>
                         </div>
 
-                        <div class="row justify-content-around">
+                        <div class="row justify-content-around payments container">
 
-                            <div class="col-sm-2 col-lg-11 d-flex align-items-center">
-                                <img class="img-fluid w-25" src="./img/FlutterwaveLogo.png" alt="Flutterwave Logo">
-                                <img class="img-fluid w-25 mx-3" src="./img/SoftCom.png" alt="Softcom Logo">
-                                <img class="img-fluid w-25" src="./img/Gloopro.png" alt="Gloopro Logo">
-                                <img class="img-fluid w-25 mx-3" src="./img/SwipeLogo.png" alt="Swipe Logo">
-                                <p class="h4 w-50 px-2 py-3 my-1">Based on more than 75+ reviews</p>
+                            <div class="col-sm-2 col-lg-2 d-flex align-items-center pays">
+                                <img class="img-fluid" src="./img/FlutterwaveLogo.png" alt="Flutterwave Logo">
+                            </div>
+
+                            <div class="col-sm-2 col-lg-2 d-flex align-items-center pays">
+                                <img class="img-fluid" src="./img/SoftCom.png" alt="Softcom Logo">
+                            </div>
+                            <div class="col-sm-2 col-lg-2 d-flex align-items-center">
+                                <img class="img-fluid" src="./img/Gloopro.png" alt="Gloopro Logo">
+                            </div>
+                            <div class="col-sm-2 col-lg-2 d-flex align-items-center pays">
+                                <img class="img-fluid" src="./img/SwipeLogo.png" alt="Swipe Logo">
+                            </div>
+                            <div class="col-sm-2 col-lg-3 d-flex align-items-center pays">
+                                <p class="views">Based on more than 75+ reviews</p>
                             </div>
                         </div>
 
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center techs container">
 
-                            <div class="quote-cards col-sm col-lg-4 p-4 mr-5">
+                            <div class="quote-cards col-sm col-lg-5">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.192 15.757C11.192 14.877 10.962 14.139 10.502 13.54C10.176 13.128 9.73404 12.857 9.17504 12.728C8.62504 12.6 8.10504 12.591 7.63504 12.7C7.47504 11.75 7.73504 10.744 8.39504 9.678C9.05504 8.613 9.91004 7.811 10.953 7.275L9.37304 5C8.57304 5.396 7.81304 5.898 7.11304 6.505C6.40304 7.112 5.77304 7.81 5.21304 8.599C4.65304 9.388 4.23304 10.279 3.96304 11.289C3.69304 12.299 3.61704 13.329 3.74604 14.389C3.91404 15.789 4.36604 16.909 5.10204 17.739C5.83704 18.579 6.75404 18.999 7.85004 18.999C8.81504 18.999 9.61604 18.709 10.25 18.121C10.878 17.545 11.19 16.756 11.19 15.753L11.192 15.756V15.757ZM20.316 15.757C20.316 14.877 20.086 14.139 19.626 13.54C19.3 13.12 18.856 12.848 18.299 12.723C17.739 12.599 17.225 12.593 16.759 12.701C16.599 11.761 16.849 10.751 17.509 9.681C18.169 8.621 19.023 7.821 20.066 7.281L18.49 5C17.69 5.396 16.935 5.898 16.23 6.505C15.5136 7.12099 14.8773 7.82449 14.336 8.599C13.78 9.389 13.366 10.279 13.096 11.289C12.8228 12.2984 12.7491 13.3514 12.879 14.389C13.044 15.789 13.494 16.909 14.229 17.739C14.961 18.572 15.875 18.989 16.971 18.989C17.938 18.989 18.739 18.699 19.373 18.113C20 17.537 20.315 16.748 20.315 15.745V15.755L20.316 15.757Z"
+                                        fill="#C6E2FF" />
+                                </svg>
+
                                 <div class="d-flex flex-column">
-                                    <q class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor augue
-                                        augue viverra sapien tempus morbi sed. Mauris vel metus magna.</q>
-                                    <img class="img-fluid w-50" src="./img/Flutterlogo.png" alt="Flutterwave Logo">
+                                    <p class="quote">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor augue augue
+                                        viverra sapien tempus morbi sed. Mauris vel metus magna.
+                                    </p>
+                                        <div class="quote-img">
+                                            <img class="img-fluid" src="./img/Flutterlogo.png" alt="Flutterwave Logo">
+
+                                        </div>
                                 </div>
                             </div>
 
-                            <div class="quote-cards col-sm col-lg-4 p-4">
+                            <div class="quote-cards col-sm col-lg-5">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.192 15.757C11.192 14.877 10.962 14.139 10.502 13.54C10.176 13.128 9.73404 12.857 9.17504 12.728C8.62504 12.6 8.10504 12.591 7.63504 12.7C7.47504 11.75 7.73504 10.744 8.39504 9.678C9.05504 8.613 9.91004 7.811 10.953 7.275L9.37304 5C8.57304 5.396 7.81304 5.898 7.11304 6.505C6.40304 7.112 5.77304 7.81 5.21304 8.599C4.65304 9.388 4.23304 10.279 3.96304 11.289C3.69304 12.299 3.61704 13.329 3.74604 14.389C3.91404 15.789 4.36604 16.909 5.10204 17.739C5.83704 18.579 6.75404 18.999 7.85004 18.999C8.81504 18.999 9.61604 18.709 10.25 18.121C10.878 17.545 11.19 16.756 11.19 15.753L11.192 15.756V15.757ZM20.316 15.757C20.316 14.877 20.086 14.139 19.626 13.54C19.3 13.12 18.856 12.848 18.299 12.723C17.739 12.599 17.225 12.593 16.759 12.701C16.599 11.761 16.849 10.751 17.509 9.681C18.169 8.621 19.023 7.821 20.066 7.281L18.49 5C17.69 5.396 16.935 5.898 16.23 6.505C15.5136 7.12099 14.8773 7.82449 14.336 8.599C13.78 9.389 13.366 10.279 13.096 11.289C12.8228 12.2984 12.7491 13.3514 12.879 14.389C13.044 15.789 13.494 16.909 14.229 17.739C14.961 18.572 15.875 18.989 16.971 18.989C17.938 18.989 18.739 18.699 19.373 18.113C20 17.537 20.315 16.748 20.315 15.745V15.755L20.316 15.757Z"
+                                        fill="#C6E2FF" />
+                                </svg>
+
                                 <div class="d-flex flex-column">
-                                    <q class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor augue
-                                        augue viverra sapien tempus morbi sed. Mauris vel metus magna.</q>
-                                    <img class="img-fluid w-50" src="./img/SoftCom2.png" alt="Softcome Logo">
+                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor augue
+                                        augue viverra sapien tempus morbi sed. Mauris vel metus magna.</p>
+                                        <div class="quote-img">
+                                            <img class="img-fluid" src="./img/SoftCom2.png" alt="Softcome Logo">
+                                        </div>
                                 </div>
                             </div>
                         </div>
